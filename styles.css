@@ -58,6 +58,7 @@ h1 {
     align-items: flex-start;
     /* gap: 140px; */
     flex-shrink: 0;
+    z-index: -5;
 
 }
 
@@ -93,7 +94,7 @@ h1 {
 
 .linear-gradient-bg ::before {
     content: "";
-    position: fixed;
+    position: absolute;
 
     height: 10em;
     width: 100%;
@@ -101,7 +102,7 @@ h1 {
             rgba(2, 0, 36, 1) 0%,
             rgba(0, 0, 0, 1) 0%,
             rgba(0, 0, 0, 0) 100%);
-    z-index: 2;
+    z-index: 5;
 }
 
 .planet_card:hover {
@@ -115,10 +116,10 @@ div .tabs .tab a[data-switcher]{
     cursor: pointer;
 }
 
-.pages .page {
+/* .pages .page {
     display: none;
 }
 
 .pages .page .is-active{
     display: contents;
-}
+} */

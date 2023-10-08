@@ -45,8 +45,9 @@ h1 {
 #logo {
     display: flex;
     align-items: flex-start;
-    width: 10vw;
-    height: 5vh;
+    width: 217px;
+    height: 115px;
+    margin-top: 15px;
 }
 
 .start {
@@ -77,7 +78,7 @@ h1 {
 }
 
 .spacer {
-    height: 22em;
+    height: 1000px;
 }
 
 .planet_list {
@@ -99,10 +100,10 @@ h1 {
     height: 10em;
     width: 100%;
     background: linear-gradient(0deg,
-            rgba(2, 0, 36, 1) 0%,
-            rgba(0, 0, 0, 1) 0%,
-            rgba(0, 0, 0, 0) 100%);
-    z-index: 5;
+            rgba(0, 0, 0, 0) 0%,
+            rgb(244, 0, 0) 100%,
+            );
+    z-index: 1;
 }
 
 .planet_card:hover {

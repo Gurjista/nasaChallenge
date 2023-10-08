@@ -25,6 +25,7 @@ function switchPage (page_id){
 
     const next_page = document.querySelector(`.pages .page[data-page="${page_id}"]`);
     next_page.classList.remove('invisible');
+    next_page.classList.add('visible');
     // const next_page = document.querySelector(`.pages .page[data-page="${page_id}"]`);
     // next_page.classList.add('is-active'); 
 }

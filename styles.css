@@ -76,7 +76,7 @@ h1 {
 }
 
 .spacer {
-    height: 1000px;
+    height: 22em;
 }
 
 .planet_list {
@@ -89,4 +89,36 @@ h1 {
 
 .planet_list h2 {
     color: white;
+}
+
+.linear-gradient-bg ::before {
+    content: "";
+    position: fixed;
+
+    height: 10em;
+    width: 100%;
+    background: linear-gradient(0deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 100%);
+    z-index: 2;
+}
+
+.planet_card:hover {
+
+    transform: scale(1, 1);
+    transition: all .5s;
+
+}
+
+div .tabs .tab a[data-switcher]{
+    cursor: pointer;
+}
+
+.pages .page {
+    display: none;
+}
+
+.pages .page .is-active{
+    display: contents;
 }
